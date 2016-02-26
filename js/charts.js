@@ -33,8 +33,8 @@ function inputValidate(vName, vName2, vStart, vEnd) {
       error.innerHTML = "There is already a block with that name.";
     }
   }
-  for (var i = 0; i < wbtArray.length; i++) {
-    if (wbtArray[i][1] == vName) {
+  for (var j = 0; j < wbtArray.length; j++) {
+    if (wbtArray[j][1] == vName) {
       inputBool = false;
       error.innerHTML = "There is already a block with that name.";
     }
